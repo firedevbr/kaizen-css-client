@@ -1,0 +1,21 @@
+{
+  "name": "firedevbr/kaizen-css-client",
+  "description": "Client para comunicação com a ferramenta de controle de leads CSS da agência Kaizen",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Firedev\\KaizenCSS\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Firedev",
+      "email": "contato@firedev.com.br"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "guzzlehttp/guzzle": "^7.2"
+  }
+}
