@@ -36,7 +36,7 @@ de campos no seguinte formato:
         'value'      => 'venda',
         'searchable' => 1
     ]
-]
+];
 ```
 
 Então digamos que queiramos passar o cpf também como um campo extra:
@@ -63,6 +63,12 @@ $cssClient->registraLead(
 ```
 
 ### Atenção
+
+É necessário ter o script de monitoramento JS instalado no site para poder 
+funcionar corretamente o client. Para saber como fazer a instalação do JS
+basta acessar [o link oficial da documentação.](https://apikaizen.docs.apiary.io/#introduction/client-side-(javascript))
+
+## Pré Build
 
 Para subir a imagem é importante antes de fazer o build da imagem setar o ID 
 do seu usuário como usuário apache. Para isto basta executar o script
